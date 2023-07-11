@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aranhaverso</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="./src/css/estilos.css" />
+  <link rel="stylesheet" href="./src/css/reset.css" />
+  <link rel="stylesheet" href="./src/css/responsivo.css" />
+</head>
+
+<body>
+  <header class="cabecalho">
+    <img src="./src/imagens/fundo/spiderverse-logo.png" alt="Logo Aranhaverso" />
+  </header>
+
+  <main class="selecao-de-personagens">
+    <section class="personagens">
+      <h1 class="titulo">Selecione um Personagem</h1>
+      <ul class="lista-de-personagens">
+        <li class="personagem selecionado" id="miles-morales" data-name="Miles Morales"
+          data-description="Miles Morales é o segundo Homem-Aranha, um adolescente afro-latino que assume a responsabilidade de proteger sua cidade após a morte de um Homem-Aranha em outra realidade. Ele tem habilidades aracnídeas.">
+          <img src="./src/imagens/card-miles-morales.jpg" alt="Personagem Miles Morales" />
+        </li>
+
+        <li class="personagem" id="gwen-aranha" data-name="Gewn Aranha"
+          data-description="Gwen Aranha, também conhecida como Spider-Gwen, é uma versão alternativa da personagem Gwen Stacy do universo Marvel. Nessa realidade, Gwen é mordida por uma aranha radioativa em vez de Peter Parker, adquirindo habilidades aracnídeas.">
+          <img src="./src/imagens/card-gwen-aranha.jpg" alt="Personagem Gwen Aranha" />
+        </li>
+
+        <li class="personagem" id="peter-parker" data-name="Peter Parker"
+          data-description="Peter Parker é um jovem estudante do ensino médio que vive em uma realidade alternativa. Ele é mordido por uma aranha radioativa, adquirindo habilidades especiais, como força sobre-humana, agilidade, reflexos aprimorados e a capacidade de escalar paredes.">
+          <img src="./src/imagens/card-peter-parker.jpg" alt="Personagem Peter Parker" />
+        </li>
+
+        <li class="personagem" id="aranha-2099" data-name="Aranha 2099"
+          data-description="Aranha 2099 é Miguel O'Hara, um cientista geneticamente modificado que vive em Nova York no ano de 2099. Ele trabalha para a corporação Alchemax, mas após um acidente envolvendo seu DNA, Miguel acaba adquirindo poderes semelhantes ao Homem-Aranha original.">
+          <img src="./src/imagens/card-aranha-2099.jpg" alt="Personagem Aranha 2099" />
+        </li>
+
+        <li class="personagem" id="noir" data-name="Noir"
+          data-description="Aranha Noir é retratado como Peter Parker, mas em uma realidade alternativa situada na década de 1930. Nessa versão, ele combate o crime em uma Nova York mergulhada em corrupção e violência, inspirado pelos clássicos detetives noir da época.">
+          <img src="./src/imagens/card-noir.jpg" alt="Personagem Noir" />
+        </li>
+
+        <li class="personagem" id="porco-aranha" data-name="Porco Aranha"
+          data-description="Porco-Aranha é Peter Porker, um suíno que ganhou habilidades de aranha após ser mordido por uma aranha radioativa. Ele vive em uma realidade onde animais antropomórficos são os habitantes da cidade e atua como herói usando seu alter ego, o Porco-Aranha.">
+          <img src="./src/imagens/card-porco-aranha.jpg" alt="Personagem Porco Aranha" />
+        </li>
+
+        <li class="personagem" id="peni-parker" data-name="Peni Parker"
+          data-description="Peni Parker vive em uma realidade onde seu pai, um cientista, criou um robô gigante controlado por uma interface neural. Após a morte de seu pai, Peni se torna a pilota de SP//dr, juntando-se à tradição de sua família de ser a guardiã do robô.">
+          <img src="./src/imagens/card-peni-parker.jpg" alt="Personagem Peni Parker" />
+        </li>
+
+        <li class="personagem" id="jessica-drew" data-name="Jessica Drew"
+          data-description="Jessica Drew é retratada como uma super-heroína com habilidades semelhantes às do Homem-Aranha. Ela possui força sobre-humana, agilidade, a capacidade de escalar paredes e um sentido de aranha que a alerta sobre perigos iminentes.">
+          <img src="./src/imagens/card-jessica-drew.jpg" alt="Personagem Jessica Drew" />
+        </li>
+      </ul>
+
+    </section>
+    <section class="personagem-selecionado">
+      <img class="personagem-grande" src="./src/imagens/card-miles-morales.png" alt="Personagem Selecionado" />
+
+      <div class="informacoes-personagem">
+        <h2 class="nome-personagem" id="nome-personagem">Miles Morales</h2>
+        <p class="descricao-personagem" id="descricao-personagem">
+          Miles Morales é o segundo Homem-Aranha, um adolescente afro-latino
+          que assume a responsabilidade de proteger sua cidade após a morte de
+          um Homem-Aranha em outra realidade. Ele tem habilidades aracnídeas e
+          enfrenta desafios pessoais enquanto equilibra sua vida de herói. Sua
+          história destaca a importância da representatividade e inspira
+          pessoas de diferentes origens.
+        </p>
+      </div>
+    </section>
+  </main>
+  <script src="./src/js/index.js"></script>
+</body>
+
+</html>
